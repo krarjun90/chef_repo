@@ -1,0 +1,7 @@
+source 'https://supermarket.chef.io'
+
+cookbook 'baseconf', path: '../../cookbooks/baseconf'
+cookbook 'database', path: '../../cookbooks/database'
+
+metadata
+

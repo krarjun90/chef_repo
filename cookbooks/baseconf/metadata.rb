@@ -1,0 +1,5 @@
+name 'baseconf'
+description 'A base cookbook to demo usage of attributes, resources and templates'
+version '1.0.0'
+maintainer 'Arjun'
+maintainer_email 'krarjun90@gmail.com'

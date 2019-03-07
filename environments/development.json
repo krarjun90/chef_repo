@@ -1,0 +1,14 @@
+{
+  "name": "development",
+  "description": "",
+  "json_class": "Chef::Environment",
+  "chef_type": "environment",
+  "default_attributes": {},
+  "override_attributes": {
+    "db_name": "test_name_dev_env",
+    "db_user": "test_user_dev_env",
+    "db_password": "test_pwd_dev_env",
+    "db_host": "test_host_dev_env"
+  },
+  "cookbook_versions": {}
+}

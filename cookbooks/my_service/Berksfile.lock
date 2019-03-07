@@ -1,0 +1,15 @@
+DEPENDENCIES
+  baseconf
+    path: ../baseconf
+  database
+    path: ../database
+  my_service
+    path: .
+    metadata: true
+
+GRAPH
+  baseconf (1.0.0)
+  database (1.0.0)
+    baseconf (>= 0.0.0)
+  my_service (1.0.0)
+    database (>= 0.0.0)

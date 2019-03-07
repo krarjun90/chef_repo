@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+group :test, :development do
+  gem 'test-kitchen'
+  gem 'kitchen-vagrant'
+  gem 'kitchen-inspec'
+  gem 'chefspec'
+  gem 'inspec'
+  gem 'berkshelf'
+end
